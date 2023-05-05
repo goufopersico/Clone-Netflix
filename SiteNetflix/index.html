@@ -19,14 +19,29 @@
     <header class="cabecalho">
         <h1>Filmes, séries e muito mais, sem limites</h1>
         <h2>Assista onde quiser. Cancele quando quiser.</h2>
-        <menu class="menu">
-            <nav class="hero">
-                <ul>
-                    <li>Português</li>
-                    <li>Entrar</li>
-                </ul>
+        <div class="Botao-Inicio">
+            <!--Idioma-->
+            <nav class="idioma">
+                <select>
+                    <option value="Português">Português</option>
+                    <option value="Inglês"></option>
+                </select>
             </nav>
-        </menu>
+            <!--Entrar-->
+            <nav class="entrar">
+                <button type="submit" value="submit"><a href=https://www.netflix.com/br/login>Entrar ></a></button>
+            </nav>
+        </div>
+        <div class="botoes-inicio-meio">            
+                <!--Input do Email-->
+                <div class="colocar-email">
+                    <input type="email" class="input" placeholder="Email">
+                </div>
+                <!--Botão Vamos lá-->
+                <nav class="vamos-la">
+                    <button type="submit" value="submit"><a href=https://www.netflix.com/signup/registration?locale=pt-BR>Vamos lá ></a></button>
+                </nav>                
+        </div>
     </header>
     <main>
         <!--Seção 1-->
@@ -113,16 +128,19 @@
                         específicos que você não quer que elas assistam.</p>
                 </details>
             </div>
-            <div>
-                <h2>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h2>
-            </div>
-            <!--Input do Email-->
-            <div class="colocar-email">
-                <input type="email" class="input" placeholder="email">
-            </div>
-            <!--Botão Vamos lá-->
-            <div class="vamos-la">
-                <button type="submit" value="submit"><a href=https://www.netflix.com/signup/registration?locale=pt-BR>Vamos lá ></a></button>
+            <div class="email-2">
+                <div>
+                    <h2>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h2>
+                </div>
+                <!--Input do Email 2-->
+                <div class="colocar-email-2">
+                    <input type="email" class="input" placeholder="Email">
+                </div>
+                <!--Botão Vamos lá 2-->
+                <nav class="vamos-la-2">
+                    <button type="submit" value="submit"><a
+                            href=https://www.netflix.com/signup/registration?locale=pt-BR>Vamos lá ></a></button>
+                </nav>
             </div>
         </section>
     </main>
@@ -149,12 +167,12 @@
                 <li><a href="https://help.netflix.com/legal/corpinfo">Informações corporativas</a></li>
             </ul>
         </div>
-        <div>
+        <nav class="idioma-2">
             <select>
                 <option value="Português">Português</option>
-                <option value="Inglês">English</option>
+                <option value="Inglês"></option>
             </select>
-        </div>
+        </nav>
     </footer>
 </body>
 
