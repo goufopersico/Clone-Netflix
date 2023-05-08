@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
 }
+
 /*Definição das fontes Netflix-sans do site*/
 @font-face {
     font-family: 'Netflix-sans';
@@ -28,7 +29,14 @@
     font-weight: 700;
 }
 
-header{
-    height: 400px;
-    width: 600px;
+header img {
+    height: 24px;
+    width: 89px;
+    padding-left: 32px;
+    margin-top: 31px;
 }
+
+header {
+    background-image: url(img/wallpaper.jpg);
+}
+
