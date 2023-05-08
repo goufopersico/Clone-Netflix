@@ -30,13 +30,22 @@
 }
 
 header img {
-    height: 24px;
-    width: 89px;
-    padding-left: 32px;
-    margin-top: 31px;
+    padding: 0px 48px;
+    width: 148px;
+    height: 40px;
+    margin-top: 23px;
 }
 
-header {
+#background {
     background-image: url(img/wallpaper.jpg);
 }
 
+#background2 {
+    background: rgb(0,8,29);
+    background: linear-gradient(90deg, rgba(0, 8, 29, 1) 0%, rgba(0, 8, 29, 0.5) 35%);
+    background-position: cover;
+    position: relative;
+    background-size: cover;
+    background-size: cover;
+    border-radius: 0px;
+}
