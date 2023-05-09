@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: Netflix-sans;
+    font-family: 'Netflix-sans';
 }
 
 /*Definição das fontes Netflix-sans do site*/
@@ -36,26 +36,37 @@ header img {
     height: 40px;
     margin-top: 23px;
 }
-header{
-    width: 100vw;
-}
 
 #background {
     background: rgb(0, 8, 29);
     background: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/a05047e3-74a3-4803-9a6a-70710da6ea00/BR-pt-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background: linear-gradient(to bottom, rgba(0, 8, 29, 0), rgba(0, 8, 29, 0.9), url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/a05047e3-74a3-4803-9a6a-70710da6ea00/BR-pt-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg));
     background-repeat: no-repeat;
     width: 100%;
     height: 70rem;
 }
 
-.botoes-inicio {
-    text-align: right;
-    margin: 0px 48px;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
+.texto1{
+    position: relative;
+    top: 75px;
+    left: 148px;
+}
+.texto1 h1{
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bolder;
 }
 
-.header {
+.texto1 h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.texto1 h3 {
+    font-size: 1.25rem;
+    font-weight: 200;
+    color:rgba(255, 255, 255, 1);
+    line-height: 1.875rem;
+    text-align: start;
 }
