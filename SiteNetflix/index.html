@@ -15,43 +15,48 @@
     <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
 </head>
 
-<body>
+<body>    
     <div id="background">
             <!--Cabeçalho, início site-->
             <header class="cabecalho">
+            
+                <div class="header">
                 <img src="img/logoNetflix.png" alt="Logo Netflix"> <!--Imagem do Logo da Netflix-->
-                <h1>Filmes, séries e muito mais, sem limites</h1>
-                <h2>Assista onde quiser. Cancele quando quiser.</h2>
-                <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
-                <div class="Botao-Inicio">
+                
+                <nav class="botoes-inicio">
                     <!--Idioma-->
-                    <nav class="idioma"> <!--Botão que muda o idioma do site.-->
+                    <div class="idioma"> <!--Botão que muda o idioma do site.-->
                         <select>
                             <option lang="pt" label="Português" value="pt-BR"></option>
                             <option lang="en" label="English" value="en-BR"></option>
                         </select>
-                    </nav>
-                    <!--Entrar com conta-->
-                    <nav class="entrar">
-                        <button type="submit" value="submit"><a href=https://www.netflix.com/br/login>Entrar
-                                ></a></button>
-                    </nav>
-                </div>
-                <div class="botoes-header-main">
-                    <!--Input do Email-->
-                    <div class="colocar-email">
-                        <input type="email" class="input" placeholder="Email">
                     </div>
-                    <!--Botão Vamos lá-->
-                    <nav class="vamos-la">
-                        <button type="submit" value="submit"><a
-                                href=https://www.netflix.com/signup/registration?locale=pt-BR>Vamos lá ></a></button>
-                    </nav>
+                    <!--Entrar com conta-->
+                    <div class="entrar">
+                        <button type="submit" value="submit"><a href=https://www.netflix.com/br/login>Entrar</a></button>
+                    </div>
+                </nav>
                 </div>
             </header>
             <main>
                 <!--Seção 1-->
                 <section id="section1">
+                    <div>
+                        <h1>Filmes, séries e muito mais, sem limites</h1>
+                        <h2>Assista onde quiser. Cancele quando quiser.</h2>
+                        <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+                    </div>
+                    <div class="botoes-header-main">
+                        <!--Input do Email-->
+                        <div class="colocar-email">
+                            <input type="email" class="input" placeholder="Email">
+                        </div>
+                        <!--Botão Vamos lá-->
+                        <nav class="vamos-la">
+                            <button type="submit" value="submit"><a
+                                    href=https://www.netflix.com/signup/registration?locale=pt-BR>Vamos lá ></a></button>
+                        </nav>
+                    </div>
                     <div class="img-1"> <!--Imagem dos filmes-->
                         <img src="img/filme1.png" alt="Filme ">
                         <h1>Aproveite na TV</h1>
