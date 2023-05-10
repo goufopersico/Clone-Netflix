@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/iconNetflix.ico">
     <!--Título-->
@@ -37,9 +35,10 @@
                                 <option lang="pt" label="Português" value="pt-BR"></option>
                                 <option lang="en" label="English" value="en-BR"></option>
                             </select>
-                            <svg id="icone2-select" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="Hawkins-Icon Hawkins-Icon-Small"
-                                data-name="CaretDown" aria-hidden="true"> <!--Ícone da Seta-->
+                            <svg id="icone2-select" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="Hawkins-Icon Hawkins-Icon-Small" data-name="CaretDown" aria-hidden="true">
+                                <!--Ícone da Seta-->
+                                <!--Path define uma forma de um elemento qualquer.-->
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M12.5225 5.99902C12.6801 5.99902 12.7497 6.19745 12.6266 6.29589L8.20687 9.83168C8.08511 9.92909 7.9121 9.92909 7.79034 9.83168L3.37059 6.29589C3.24755 6.19745 3.31715 5.99902 3.47473 5.99902H12.5225Z"
                                     fill="#fff"></path> <!--Cor do ícone "#fff"-->
@@ -65,36 +64,45 @@
                     <div class="botoes-header-main">
                         <!--Input do Email-->
                         <div class="colocar-email">
-                            <input type="email" class="input" placeholder="Email">
+                            <input id="email-usuario" type="email" class="input" placeholder="Email">
                         </div>
                         <!--Botão Vamos lá-->
-                        <nav class="vamos-la">
+                        <div class="vamos-la">
                             <button type="submit" value="submit"><a
                                     href=https://www.netflix.com/signup/registration?locale=pt-BR>Vamos lá
-                                    ></a></button>
-                        </nav>
+                                </a></button>
+                            <!--Ícone da seta para direita do botão vamos-la.-->
+                            <!--O "svg", nesse caso, é um formato que exibe uma ilustração no site, nesse caso, a seta.-->
+                            <svg class="seta-vamos-la" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="Hawkins-Icon Hawkins-Icon-Standard"
+                                data-name="ChevronRight">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.29297 19.2928L14.5859 12L7.29297 4.70706L8.70718 3.29285L16.7072 11.2928C16.8947 11.4804 17.0001 11.7347 17.0001 12C17.0001 12.2652 16.8947 12.5195 16.7072 12.7071L8.70718 20.7071L7.29297 19.2928Z"
+                                    fill="#fff"></path> <!--O "fill" é a cor do ícone "#fff"-->
+                            </svg>
+                        </div>
                     </div>
                     <div class="img-1"> <!--Imagem dos filmes-->
                         <img src="img/filme1.png" alt="Filme ">
-                        <h1>Aproveite na TV</h1>
+                        <p>Aproveite na TV</p>
                         <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros
                             dispositivos.</p>
                     </div>
                     <div class="img-2">
                         <img src="img/filme2.png"> <!--Imagem dos filmes-->
-                        <h1>Assista onde quiser</h1>
+                        <p>Assista onde quiser</p>
                         <p>Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.</p>
                     </div>
         </div>
         <div class="img-3">
             <img src="img/infantil.png"> <!--Imagem dos filmes-->
-            <h1>Crie perfis para crianças</h1>
+            <p>Crie perfis para crianças</p>
             <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem
                 pagar a mais por isso.</p>
         </div>
         <div class="img-4">
             <img src="img/filme4.png"> <!--Imagem dos filmes-->
-            <h1>Baixe séries para assistir offline</h1>
+            <p>Baixe séries para assistir offline</p>
             <p>Disponíveis somente em planos sem anúncios.</p>
         </div>
         </section>
