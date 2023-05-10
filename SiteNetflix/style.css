@@ -83,7 +83,7 @@ select{
     margin: 17px 12px 0px -15px;
 }   
 
-button{
+.entrar button{
     position: relative;
     top: 17px;
     background-color: rgb(229,9,20);
