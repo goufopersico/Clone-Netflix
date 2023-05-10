@@ -251,6 +251,7 @@ option {
     
 }
 
+/*Imagem 2*/
 .img-2{
     grid-row-start: 1;
     grid-row-end: 2;
@@ -258,6 +259,7 @@ option {
     grid-column-end: 3;
 }
 
+/*Imagem 3*/
 .img-3{
     grid-row-start: 2;
     grid-row-end: 3;
@@ -265,6 +267,7 @@ option {
     grid-column-end: 2;
 }
 
+/*Imagem 4*/
 .img-4{
     grid-row-start: 2;
     grid-row-end: 3;
