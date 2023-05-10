@@ -4,6 +4,9 @@
     border: 0;
     font-family: 'Netflix-sans';
 }
+body{
+    overflow-x: hidden;
+}
 
 /*Definição das fontes Netflix-sans do site*/
 @font-face {
@@ -30,7 +33,7 @@
     font-weight: 700;
 }
 
-header img {
+.header img {
     padding: 0px 48px;
     width: 148px;
     height: 40px;
@@ -40,21 +43,82 @@ header img {
 #background {
     background: rgb(0, 8, 29);
     background: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/a05047e3-74a3-4803-9a6a-70710da6ea00/BR-pt-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-    background: linear-gradient(to bottom, rgba(0, 8, 29, 0), rgba(0, 8, 29, 0.9), url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/a05047e3-74a3-4803-9a6a-70710da6ea00/BR-pt-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg));
     background-repeat: no-repeat;
     width: 100%;
     height: 70rem;
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: center;
+}
+
+.botoes-inicio{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 10px;
+    margin-left: 1000px;
+}
+
+/*Botão de Mudar o Idioma do Site*/
+select{
+    background-image: url(img/globo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 15px;
+    background-size: 19px 19px;
+    background-color: rgba(29, 34, 45, 0.8);
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 149px;
+    border: 0.25px solid rgb(94,91,93);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 17px 12px 0px -15px;
+}   
+
+button{
+    position: relative;
+    top: 17px;
+    background-color: rgb(229,9,20);
+    height: 29.5px;
+    width: 72px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.entrar a{
+    color: white;
+    text-decoration: none;
+}
+
+.entrar button:hover{
+    background-color: rgba(193,17,25,255);
+    transition: 250ms;
+}
+
+.entrar button:active{
+    background-color: rgba(153,22,29,255);
+    transition: 250ms;
+}
+
 .texto1{
     position: relative;
-    top: 75px;
+    top: 120px;
     left: 148px;
 }
 .texto1 h1{
     font-size: 4rem;
     color: rgba(255, 255, 255, 1);
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .texto1 h2 {
