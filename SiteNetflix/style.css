@@ -56,8 +56,8 @@ body {
     height: 140vh;
 }
 
-.background2{
-    background:rgba(0, 8, 29, 1);
+.background2 {
+    background: rgba(0, 8, 29, 1);
 }
 
 .botoes-inicio {
@@ -182,13 +182,13 @@ option {
     text-align: start;
 }
 
-.botoes-header-main{
-    display: flex;  
+.botoes-header-main {
+    display: flex;
 }
 
 /*Este é o input em que o usuário colocará seu email.*/
 /*Definição das posições e atributos do botão de email.*/
-#email-usuario{
+#email-usuario {
     position: relative;
     left: 148px;
     top: 180px;
@@ -204,18 +204,18 @@ option {
     border-radius: 4px;
 }
 
-#email-usuario::placeholder{
-    color: rgb(181,181,178);
+#email-usuario::placeholder {
+    color: rgb(181, 181, 178);
     font-size: 16px;
     font-weight: 300;
 }
 
 /*Botão de Vamos Lá estilizado*/
-.vamos-la button{
+.vamos-la button {
     position: relative;
     bottom: -180px;
     left: 155px;
-    background-color: rgb(229,9,20);
+    background-color: rgb(229, 9, 20);
     border-radius: 4px;
     border: none;
     width: 172.163px;
@@ -224,27 +224,27 @@ option {
 }
 
 /*Quando passar o mouse em cima, muda de cor*/
-.vamos-la button:hover{
+.vamos-la button:hover {
     background-color: rgba(193, 17, 25, 255);
     transition: 250ms;
 }
 
 /*Quando é clicado */
-.vamos-la button:active{
+.vamos-la button:active {
     background-color: rgba(153, 22, 29, 255);
     transition: 250ms;
 }
 
 /*Definição das posições do texto do "a".*/
 
-.vamos-la a{
+.vamos-la a {
     margin-left: -25px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 /*Definição da seta de vamos lá e seus atributos.*/
-.seta-vamos-la{
+.seta-vamos-la {
     position: relative;
     bottom: -183px;
     left: 105px;
@@ -253,7 +253,7 @@ option {
 }
 
 /*Display grid (4 imagens)*/
-.grid{
+.grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -262,97 +262,216 @@ option {
 }
 
 /*Outra div para alinhar o bloco de grid*/
-.flex{
+.flex {
     display: flex;
     align-items: center;
     margin: 0 48px;
 }
 
 /*Imagem e texto 1*/
-.img-1{
+.img-1 {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(64, 16, 41) 96.1%);
+    background: linear-gradient(135deg, rgb(10, 21, 58) 23.83%, rgb(64, 16, 41) 96.1%);
     border-radius: 7px;
     padding: 50px;
 }
 
 /*Imagem e texto 2*/
-.img-2{
+.img-2 {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
-    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(64, 16, 41) 96.1%);
+    background: linear-gradient(135deg, rgb(10, 21, 58) 23.83%, rgb(64, 16, 41) 96.1%);
     border-radius: 7px;
     padding: 50px;
 }
 
 /*Imagem e texto 3*/
-.img-3{
+.img-3 {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
-    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(64, 16, 41) 96.1%);
+    background: linear-gradient(135deg, rgb(10, 21, 58) 23.83%, rgb(64, 16, 41) 96.1%);
     border-radius: 7px;
     padding: 50px;
 }
 
 /*Imagem e texto 4*/
-.img-4{
+.img-4 {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
-    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(64, 16, 41) 96.1%);
+    background: linear-gradient(135deg, rgb(10, 21, 58) 23.83%, rgb(64, 16, 41) 96.1%);
     border-radius: 7px;
     padding: 50px;
 }
 
-/*Ajuste da imagem*/
-.img-1 img{
-    width: 504px;
-    margin: 0px 50px; 
-}
-
-/*Ajuste da imagem*/
-.img-2 img{
+/*Os "img-1 img" "img-2 img" "img-3 img" "img-4 img" são referentes ao ajuste na posição das imagens do grid*/
+.img-1 img {
     width: 504px;
     margin: 0px 50px;
 }
 
-/*Ajuste da imagem*/
-.img-3 img{
+.img-2 img {
     width: 504px;
     margin: 0px 50px;
 }
 
-/*Ajuste da imagem*/
-.img-4 img{
+.img-3 img {
     width: 504px;
     margin: 0px 50px;
 }
 
-/*Título do grid*/
-.titulo-grid{
+.img-4 img {
+    width: 504px;
+    margin: 0px 50px;
+}
+
+/*Título do grid e seus atributos*/
+.titulo-grid {
     color: white;
     font-size: 1.5em;
     font-weight: 300;
-    
 }
 
-/*Subtítulo do grid*/
-.subtitulo-grid{
+/*Subtítulo do grid e seus atributos*/
+.subtitulo-grid {
     color: white;
     font-size: 1rem;
     font-weight: 200;
     margin-top: 20px;
 }
 
-.grid p{
+/*Posicionamento dos textos do grid.*/
+.grid p {
     max-width: 503.6px;
     padding-left: 60px;
+}
+
+/*Texto que mostra as perguntas frequentes.*/
+.perguntas-frequentes {
+    position: relative;
+    left: 148px;
+    top: 104px;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+/*Atributos e posicionamento dos botões de perguntas frequentes*/
+.botao-perguntas {
+    position: relative;
+    left: 146px;
+    top: 120px;
+    margin: 4px;
+    height: 84px;
+    width: 1223px;
+    background-color: rgb(19, 33, 68);
+}
+
+/*Ao passar o mouse em cima desses botões, a cor de fundo muda com uma transição*/
+.botao-perguntas:hover {
+    background-color: rgba(34, 51, 98, 255);
+    transition: 250ms;
+}
+
+/*Atributos e posicionamento da tag <summary> das Perguntas Frequentes*/
+.sumario {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    text-align: left;
+    appearance: none;
+}
+
+/*Apenas o texto que aparece em cima do input do email e do segundo botão de Vamos Lá.*/
+.texto-buttons {
+    position: relative;
+    left: 148px;
+    top: 150px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+/*Este é o input em que o usuário colocará seu email.*/
+/*Definição das posições e atributos do botão de email.*/
+#email-usuario-2 {
+    position: relative;
+    left: 148px;
+    top: 165px;
+    width: 393px;
+    height: 54px;
+    background-color: rgb(28, 41, 67);
+    color: white;
+    font-family: 'Netflix-sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+    border: 1px solid rgb(71, 79, 93);
+    border-radius: 5px;
+}
+
+#email-usuario-2::placeholder {
+    color: rgb(181, 181, 178);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*Atributos e posicionamento do segundo botão "Vamos Lá".*/
+.vamos-la-2 button {
+    position: relative;
+    top: 110px;
+    left: 566px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+    border: none;
+    width: 172.163px;
+    height: 56px;
+    font-size: 24px;
+}
+
+/*Quando passar o mouse em cima, muda de cor*/
+.vamos-la-2 button:hover {
+    background-color: rgba(193, 17, 25, 255);
+    transition: 250ms;
+}
+
+/*Quando é clicado */
+.vamos-la-2 button:active {
+    background-color: rgba(153, 22, 29, 255);
+    transition: 250ms;
+}
+
+/*Definição das posições do texto do "a".*/
+
+.vamos-la-2 a {
+    margin-left: -25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*Ícone SVG da seta do segundo botão de "Vamos Lá"*/
+.seta-vamos-la-2 {
+    position: relative;
+    bottom: -113px;
+    left: 515px;
+    width: 24px;
+    height: 24px;
+}
+
+.telefone p{
+    position: relative;
+    left: 148px;
+    top: 200px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
 }

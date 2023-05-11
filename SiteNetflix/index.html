@@ -64,9 +64,7 @@
                 </div>
                 <div class="botoes-header-main">
                     <!--Input do Email-->
-                    <div class="colocar-email">
                         <input id="email-usuario" type="email" class="input" placeholder="Email">
-                    </div>
                     <!--Botão Vamos lá-->
                     <div class="vamos-la">
                         <button type="submit" value="submit"><a
@@ -116,10 +114,10 @@
         <!--Seção 2-->
         <section id="section2">
             <!--Botões que mostram informações sobre a Netflix. (summary e details)-->
-            <h2>Perguntas Frequentes</h2>
-            <button>
+            <h2 class="perguntas-frequentes">Perguntas frequentes</h2>
+            <button class="botao-perguntas">
                 <details>
-                    <summary>O que é a Netflix?</summary>
+                    <summary class="sumario">O que é a Netflix?</summary>
 
                     <p>A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e
                         documentários premiados em milhares de aparelhos conectados à internet.<br>
@@ -129,9 +127,9 @@
                 </details>
             </button>
             <div>
-                <button>
+                <button class="botao-perguntas">
                     <details>
-                        <summary>Quanto custa a Netflix?</summary>
+                        <summary class="sumario">Quanto custa a Netflix?</summary>
                         <p>Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por
                             uma taxa mensal única.
                             Os planos variam de R$18,90 a R$55,90 por mês. Sem contrato nem taxas extras.</p>
@@ -139,9 +137,9 @@
                 </button>
             </div>
             <div>
-                <button>
+                <button class="botao-perguntas">
                     <details>
-                        <summary>Onde posso assistir?</summary>
+                        <summary class="sumario">Onde posso assistir?</summary>
                         <p>Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para
                             começar
                             a assistir no
@@ -159,9 +157,9 @@
                 </button>
             </div>
             <div>
-                <button>
+                <button class="botao-perguntas">
                     <details>
-                        <summary>Como faço para cancelar?</summary>
+                        <summary class="sumario">Como faço para cancelar?</summary>
                         <p>A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta
                             na
                             internet com apenas
@@ -172,9 +170,9 @@
                 </button>
             </div>
             <div>
-                <button>
+                <button class="botao-perguntas">
                     <details>
-                        <summary>O que eu posso assistir na Netflix?</summary>
+                        <summary class="sumario">O que eu posso assistir na Netflix?</summary>
                         <p>A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix
                             premiados e
                             muito mais.
@@ -183,9 +181,9 @@
                 </button>
             </div>
             <div>
-                <button>
+                <button class="botao-perguntas">
                     <details>
-                        <summary>A Netflix é adequada para crianças?</summary>
+                        <summary class="sumario">A Netflix é adequada para crianças?</summary>
                         <p>A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se
                             divirtam
                             em seu próprio
@@ -199,20 +197,22 @@
                     </details>
                 </button>
             </div>
-            <div class="botoes-main-footer">
-                <div>
-                    <h2>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h2>
-                </div>
-                <!--Input do Email 2-->
-                <div class="colocar-email-2">
-                    <input type="email" class="input" placeholder="Email">
-                </div>
-                <!--Botão Vamos lá 2-->
-                <nav class="vamos-la-2">
+                <h2 class="texto-buttons">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h2>
+                <!--Input do Email do Main/Footer-->
+                    <input id="email-usuario-2"type="email" class="input" placeholder="Email">
+                <!--Botão Vamos lá Main/Footer-->
+                <div class="vamos-la-2">
                     <button type="submit" value="submit"><a
-                            href=https://www.netflix.com/signup/registration?locale=pt-BR>Vamos lá ></a></button>
-                </nav>
-            </div>
+                            href=https://www.netflix.com/signup/registration?locale=pt-BR>Vamos lá</a></button>
+                    <!--O "svg", nesse caso, é um formato que exibe uma ilustração no site, nesse caso, a seta.-->
+                    <svg class="seta-vamos-la-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="Hawkins-Icon Hawkins-Icon-Standard" data-name="ChevronRight">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.29297 19.2928L14.5859 12L7.29297 4.70706L8.70718 3.29285L16.7072 11.2928C16.8947 11.4804 17.0001 11.7347 17.0001 12C17.0001 12.2652 16.8947 12.5195 16.7072 12.7071L8.70718 20.7071L7.29297 19.2928Z"
+                            fill="#fff">
+                        </path> <!--O "fill" é a cor do ícone "#fff"-->
+                    </svg>
+                </div>
         </section>
         </main>
         <!--Começo Footer-->
@@ -221,10 +221,9 @@
                 <div class="telefone"> <!--Telefone da Central da Netflix-->
                     <p>Dúvidas? Ligue <a href="tel:0800 591 8942">0800 591 8942</a></p>
                 </div>
-                <ul> <!--Informações do rodapé do site (Lista).-->
+                <ul> <!--Informações do rodapé do site (Lista não ordenada).-->
                     <li><a href="https://help.netflix.com/pt/node/412">Perguntas frequentes</a></li>
-                    <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Relações com investidores</a>
-                    </li>
+                    <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Relações com investidores</a></li>
                     <li><a href="https://devices.netflix.com/en/">Formas de assistir</a></li>
                     <li><a href="https://help.netflix.com/legal/corpinfo">Informações corporativas</a></li>
                     <li><a href="https://www.netflix.com/br/browse/genre/839338">Só na Netflix</a></li>
