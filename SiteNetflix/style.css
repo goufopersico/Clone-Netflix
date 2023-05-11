@@ -52,7 +52,11 @@ body {
     background: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/1b6509ba-e933-4a3f-a18e-c5bf8f5c6963/BR-pt-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 140vh;
+}
+
+.background2{
+    background: rgb(0, 8, 29);
 }
 
 .botoes-inicio {
@@ -98,7 +102,7 @@ option {
 #icone-select {
     position: relative;
     top: 5px;
-    left: 19.5px;
+    left: 20px;
     padding: 2.5px;
     width: 16px;
 }
@@ -215,6 +219,18 @@ option {
     font-size: 24px;
 }
 
+/*Quando passar o mouse em cima, muda de cor*/
+.vamos-la button:hover{
+    background-color: rgba(193, 17, 25, 255);
+    transition: 250ms;
+}
+
+/*Quando é clicado */
+.vamos-la button:active{
+    background-color: rgba(153, 22, 29, 255);
+    transition: 250ms;
+}
+
 /*Definição das posições do texto do "a".*/
 
 .vamos-la a{
@@ -238,39 +254,101 @@ option {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
-    margin-top: 350px;
-    margin-left: 130px;
+    margin-top: -380px;
 }
 
-/*Imagem 1*/
+/*Outra div para alinhar o bloco de grid*/
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 0 48px;
+}
+
+/*Imagem e texto 1*/
 .img-1{
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    
+    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(49,12,31) 96.1%);
+    border-radius: 7px;
+    padding: 50px;
 }
 
-/*Imagem 2*/
+/*Imagem e texto 2*/
 .img-2{
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
+    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(49,12,31) 96.1%);
+    border-radius: 7px;
+    padding: 50px;
 }
 
-/*Imagem 3*/
+/*Imagem e texto 3*/
 .img-3{
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
+    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(49,12,31) 96.1%);
+    border-radius: 7px;
+    padding: 50px;
 }
 
-/*Imagem 4*/
+/*Imagem e texto 4*/
 .img-4{
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
+    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(49,12,31) 96.1%);
+    border-radius: 7px;
+    padding: 50px;
+}
+
+/*Ajuste da imagem*/
+.img-1 img{
+    width: 504px;
+    margin: 0px 50px; 
+}
+
+/*Ajuste da imagem*/
+.img-2 img{
+    width: 504px;
+    margin: 0px 50px;
+}
+
+/*Ajuste da imagem*/
+.img-3 img{
+    width: 504px;
+    margin: 0px 50px;
+}
+
+/*Ajuste da imagem*/
+.img-4 img{
+    width: 504px;
+    margin: 0px 50px;
+}
+
+/*Título do grid*/
+.titulo-grid{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+    
+}
+
+/*Subtítulo do grid*/
+.subtitulo-grid{
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.grid p{
+    max-width: 503.6px;
+    padding-left: 60px;
 }
