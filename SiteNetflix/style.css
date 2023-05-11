@@ -40,6 +40,7 @@ body {
     font-weight: 900;
 }
 
+/*Imagem do logo da netflix do canto superior esquerdo.*/
 .header img {
     padding: 0px 48px;
     width: 148px;
@@ -56,7 +57,7 @@ body {
 }
 
 .background2{
-    background: rgb(0, 8, 29);
+    background:rgba(0, 8, 29, 1);
 }
 
 .botoes-inicio {
@@ -137,16 +138,19 @@ option {
     text-decoration: none;
 }
 
+/*Quando é passado o mouse em cima, a cor muda.*/
 .entrar button:hover {
     background-color: rgba(193, 17, 25, 255);
     transition: 250ms;
 }
 
+/*Quando é clicado com o mouse, a cor muda de novo.*/
 .entrar button:active {
     background-color: rgba(153, 22, 29, 255);
     transition: 250ms;
 }
 
+/*Texto do header e seus atributos*/
 .texto1 {
     position: relative;
     left: 148px;
@@ -270,7 +274,7 @@ option {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(49,12,31) 96.1%);
+    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(64, 16, 41) 96.1%);
     border-radius: 7px;
     padding: 50px;
 }
@@ -281,7 +285,7 @@ option {
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
-    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(49,12,31) 96.1%);
+    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(64, 16, 41) 96.1%);
     border-radius: 7px;
     padding: 50px;
 }
@@ -292,7 +296,7 @@ option {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
-    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(49,12,31) 96.1%);
+    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(64, 16, 41) 96.1%);
     border-radius: 7px;
     padding: 50px;
 }
@@ -303,7 +307,7 @@ option {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
-    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(49,12,31) 96.1%);
+    background: linear-gradient(135deg, rgb(10,21,58) 23.83%, rgb(64, 16, 41) 96.1%);
     border-radius: 7px;
     padding: 50px;
 }
